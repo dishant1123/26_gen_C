@@ -96,3 +96,12 @@ input  : 10
         even :2 4 6 8 10  ===>30 
         odd  : 1 3 5 7 9  ===>25        
 */
+// task  :8  ask user to enter the  number  and  print  factorial  of  that number . 
+/*
+input   :5   ===> 1*2*3*4*5 =120
+*/
+
+// task :9 ask user to  enter the  number  and  print sum  and  factorial  both . 
+/*
+input  : 5   ===> sum  =15  factorial =120
+*/
