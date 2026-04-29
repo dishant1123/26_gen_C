@@ -37,3 +37,41 @@ int main()
 
     sum == num 
 */
+
+/*
+    armstrong  number  : 
+153 : 3 digit 
+
+    each cube   ==> 1**3   5**3  3**3  ==> 1  125 27  ==> sum = 1+125+27 = 153 
+    
+370  : 3 digit 
+     each cube   ==>   3**3  7**3 0**0  ==> 27  343 0   ==> sum = 27+343+0 = 370
+
+3 step  : 
+ 
+r = num %10  // r =1 %10 = 1 
+sum = sum + (r*r*r)  // sum = 153   
+num = num /10;  num = 1 /10 = 0 
+
+
+*/
+#include<stdio.h>
+int main()
+{
+    int num,r,temp,sum=0; 
+    printf("Enter a number\n");
+    scanf("%d",&num);   //153 
+    temp =num; 
+    for(;temp > 0;)  //0 > 0 
+    {
+        r = temp %10;  // r =1 
+        sum =sum + (r*r*r);  // sum = 153 
+        temp = temp /10;  // temp = 1 /10 = 0
+    }
+    if(sum ==num)
+    {   
+        printf("%d is a armstrong number",num);
+    }
+    return 0; 
+}
+
