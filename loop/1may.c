@@ -78,3 +78,20 @@ int  main()
 input : 121 131 141 
 
 */
+// twin  : 
+/*
+123  : 
+each digit sum: 1+2+3 ==> 6 
+each multiply : 1*2*3 ==> 6
+sum ==mul    ===> twin 
+*/
+
+/*
+A number is said to be a Disarium number when the sum of its digit raised to the power of their respective positions 
+becomes equal to the number itself.
+For example, 175 is a Disarium number as follows:
+11+ 72 + 53 = 1+ 49 + 125 = 175
+
+A harshad number is a number that is divisible by the sum of its digits. E.g., the number 18 is a harshad number, because 
+the sum of the digits 1 and 8 is 9 (1 + 8 = 9), and 18 is divisible by 9. 
+*/
