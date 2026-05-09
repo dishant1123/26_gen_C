@@ -113,6 +113,7 @@ int main()
 /*
 a[5] = {1,6,2,5,3};  
 */
+/*
 #include<stdio.h>
 int  main()
 {
@@ -150,7 +151,33 @@ int  main()
     return 0; 
 }
 
+*/
+#include<stdio.h>
+int  main()
+{
+    int a[30][30],i,j,row,col;
+    printf("enter the number of rows and columns\n");
+    scanf("%d %d",&row,&col);  // 3 3 
 
+    for(i=0; i<row; i++)
+    {
+        for(j=0; j<col; j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("matrix  is \n");
+    for(i=0; i<row; i++)
+    {
+        for(j=0; j<col; j++)
+        {
+            printf("%d ",a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0; 
+    
+}
 
 
 /*
