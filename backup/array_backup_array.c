@@ -152,6 +152,7 @@ int  main()
 }
 
 */
+/*
 #include<stdio.h>
 int  main()
 {
@@ -178,7 +179,7 @@ int  main()
     return 0; 
     
 }
-
+*/ 
 
 /*
 for : 
@@ -219,3 +220,28 @@ int  main()
     return 0; 
 }
 */
+
+// while  : 
+/*
+
+for (in ; con ; inc/dec)
+
+int 
+while(con)
+{
+    printf(); 
+    inc/dec
+}
+*/
+
+#include<stdio.h>
+int main()
+{
+    int i=1; 
+    while(i<=100)
+    {
+        printf("%d\t",i);
+        i++; 
+    }
+    return 0; 
+}
