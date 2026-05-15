@@ -93,7 +93,7 @@ int  main()
 */ 
 
 // ex :4 structure  with  pointer :
-
+/*
 #include<stdio.h>
 struct student
 {
@@ -124,3 +124,53 @@ int  main()
 
     return 0; 
 }
+*/ 
+
+// ex :5 pointer with  function  : 
+
+/*
+1. call by value 
+2. call by reference
+*/
+
+// call  by value : 
+/*
+#include<stdio.h>
+void modifyfun(int x)
+{
+    x =90; 
+    printf("inside modifyfun  x value is : %d\n",x);
+}
+int  main()
+{
+    int a =10; 
+    printf("before function  a value is  : %d\n",a); // 10 
+
+    modifyfun(a);  // 90 
+
+    printf("after function  a value is  : %d\n",a);//10 
+    return 0; 
+}
+*/ 
+// call  by reference :
+
+#include<stdio.h>
+void modifyfun(int *x)
+{
+    *x =90; 
+    printf("inside modifyfun  x value is : %d\n",*x);
+}
+
+int  main()
+{
+    int  a=10; 
+
+    printf("before function  a value is  : %d\n",a); // 10
+
+    modifyfun(&a); 
+
+    printf("after function  a value is  : %d\n",a); // 90
+
+    return 0; 
+}
+ 
