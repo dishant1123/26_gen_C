@@ -128,9 +128,12 @@ srno     name     accnum     balance
 
 condition : 
 1.print  only  those  customer  name  who's balance  is  more than  500. 
+
+    for()
 2.who's balance is  less than 500  add 1000 rs in their balance  and  print  update  balance with name.
     name     update_balance 
     vishwa     1200
     aksh       1400
 
 */
+
